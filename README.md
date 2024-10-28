@@ -32,3 +32,9 @@ firebase login
 firebase init
 
 firebase deploy
+
+#
+
+```
+npm install --save-dev gh-pages
+```

@@ -1,9 +1,12 @@
 {
+    "homepage": "https://ma7en.github.io/js-p-dice-throwing-game-1",
     "name": "dice-throwing-game",
     "version": "1.0.0",
     "description": "Dice-Throwing-Game",
     "source": "src/index.html",
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "start": "parcel",
         "build": "parcel build",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +20,7 @@
         "sass": "^1.69.5"
     },
     "devDependencies": {
-        "@parcel/transformer-sass": "^2.11.0"
+        "@parcel/transformer-sass": "^2.11.0",
+        "gh-pages": "^6.2.0"
     }
 }
